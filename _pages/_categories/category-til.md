@@ -1,7 +1,7 @@
 ---
-title: "알고리즘"
+title: "TIL"
 layout: archive
-permalink: categories/algorithm
+permalink: categories/til/2021
 author_profile: true
 sidebar_main: true
 ---
