@@ -1,0 +1,4 @@
+오타
+331pg 28행 size -> ksize
+334pg 5번 rep_edqe -> rep_edge
+368pg 9행 4개 회소 -> 4개 화소
