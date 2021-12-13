@@ -1,0 +1,19 @@
+---
+layout: single
+title: "title"
+categories: programmers
+---
+[문제이름](주소)
+
+# 나의 풀이
+<details markdown="1">
+<summary>코드</summary>
+
+```c++
+```
+</details>
+
+---
+# 배운것
+1.
+2.
