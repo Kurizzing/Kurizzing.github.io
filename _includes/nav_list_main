@@ -81,13 +81,13 @@
         <span class="nav__sub-title">AR</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "ar" %}
-                        <li><a href="/categories/ar" class="">AR ({{category[1].size}})</a></li>
+                    {% if category[0] == "ar_introduction" %}
+                        <li><a href="/categories/ar_introduction" class="">Introduction to AR and ARCore ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
-                    {% if category[0] == "ar2" %}
-                        <li><a href="/categories/ar2" class="">AR2 ({{category[1].size}})</a></li>
+                    {% if category[0] == "ar_sceneform" %}
+                        <li><a href="/categories/ar_sceneform" class="">Build AR apps in Android Studio using Sceneform ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
