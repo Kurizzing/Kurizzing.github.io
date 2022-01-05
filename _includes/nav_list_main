@@ -15,11 +15,44 @@
         <span class="nav__sub-title">알고리즘</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
-                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
-                    {% if category[0] == "algorithm" %}
-                        <li><a href="/categories/algorithm" class="">알고리즘 ({{category[1].size}})</a></li>
+                    {% if category[0] == "algobase" %}
+                        <li><a href="/categories/algobase" class="">개념 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "algoskill" %}
+                        <li><a href="/categories/algoskill" class="">잡기술 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "codeplus" %}
+                        <li><a href="/categories/codeplus" class="">코드플러스 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "baekjoon" %}
+                        <li><a href="/categories/baekjoon" class="">백준 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "programmers" %}
+                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "leetcode" %}
+                        <li><a href="/categories/leetcode" class="">릿코드 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -42,17 +75,6 @@
                 {% for category in site.categories %}
                     {% if category[0] == "webfullstack" %}
                         <li><a href="/categories/webfullstack" class="">웹 프로그래밍(풀스택) ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">프로그래머스</span>
-            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
-            <ul>
-                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
-                {% for category in site.categories %}
-                    {% if category[0] == "programmers" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -87,7 +109,7 @@
                 {% endfor %}
                 {% for category in site.categories %}
                     {% if category[0] == "ar_sceneform" %}
-                        <li><a href="/categories/ar_sceneform" class="">Build AR apps in Android Studio using Sceneform ({{category[1].size}})</a></li>
+                        <li><a href="/categories/ar_sceneform" class="">Build AR apps using Sceneform ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
