@@ -4,6 +4,9 @@ layout: archive
 permalink: categories/algobase
 author_profile: true
 sidebar_main: true
+toc: true
+toc-sticky: true
+toc_label: "hello"
 ---
 
 
