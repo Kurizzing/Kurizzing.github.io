@@ -1,11 +1,11 @@
 ---
-title: "알고리즘"
+title: "Ml-agents"
 layout: archive
-permalink: categories/algorithm
+permalink: categories/mlagents
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.algorithm %}
+{% assign posts = site.categories.mlagents %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

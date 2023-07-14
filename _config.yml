@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "ko_KR"
-title                    : "게임개발Blog"
+title                    : "게임 개발 Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Kuri"
-description              : "wanna make creative game"
+name                     : "KuriWorld"
+description              : ""
 url                      : "https://Kurizzing.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/Kurizzing/Kurizzing.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "Kurizzing/Kurizzing.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -101,11 +101,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Kuri"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "wanna make creative game"
+  location         : "Korea"
+  email            : "lkukulza@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
