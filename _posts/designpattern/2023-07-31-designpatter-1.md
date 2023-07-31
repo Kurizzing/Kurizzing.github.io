@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "4. 싱글턴으로 게임 매니저 구현하기"
+title: "4.싱글턴으로 게임 매니저 구현하기"
 categories: designpattern
 toc: true
 toc_sticky: true
@@ -8,7 +8,7 @@ toc_sticky: true
 
 # 4.2 싱글턴 패턴 이해하기
 
-![Singleton](../img/singleton.png)
+![Singleton](https://github.com/Kurizzing/Kurizzing.github.io/assets/48445259/f38e79cc-7510-4488-9e63-60788b141d94)
 
 - 유일성 보장: 런타임 동안 메모리에 오직 하나의 인스턴스만 존재
 

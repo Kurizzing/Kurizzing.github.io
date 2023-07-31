@@ -1,13 +1,13 @@
 ---
 layout: single
-title: "5. 상태 패턴으로 캐릭터 상태 관리하기"
+title: "5.상태 패턴으로 캐릭터 상태 관리하기"
 categories: designpattern
 toc: true
 toc_sticky: true
 ---
 # 5.2 상태 패턴의 개요
 
-![Untitled](../img/state.png)
+![State](https://github.com/Kurizzing/Kurizzing.github.io/assets/48445259/3400e825-40ac-4385-bf8b-2768704909c7)
 
 - 상태 패턴의 핵심 요소
     - Context: 클라이언트가 객체 내부 상태를 변경할 수 있도록 요청하는 인터페이스를 정의, 현재 상태에 대한 포인터 보유
