@@ -121,6 +121,14 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">디자인 패턴</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "designpattern" %}
+                        <li><a href="/categories/designpattern" class="">유니티로 배우는 게임 디자인 패턴 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       </li>
   </ul>
 </nav>
